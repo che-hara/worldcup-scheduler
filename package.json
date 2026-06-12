@@ -1,33 +1,14 @@
 {
-  "name": "bluesky-bluejays-agent",
-  "version": "2.0.0",
-  "description": "AI agent that posts live Blue Jays game updates to Bluesky (ESPN API version)",
-  "main": "bluesky-agent.js",
+  "name": "worldcup-scheduler",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node bluesky-agent.js",
-    "dev": "NODE_ENV=development node bluesky-agent.js",
-    "start:fifa": "node fifa-world-cup-agent.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node fifa-world-cup-agent.js"
   },
-  "keywords": [
-    "bluesky",
-    "mlb",
-    "toronto-blue-jays",
-    "ai",
-    "claude",
-    "automation",
-    "sports",
-    "social-media",
-    "espn"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.28.0",
     "node-fetch": "^3.3.2"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
   }
